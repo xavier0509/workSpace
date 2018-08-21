@@ -1,0 +1,98 @@
+@charset "utf-8";
+body {
+    width: 1920px;
+    height: 1080px;
+    overflow: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    /*outline: none;*/
+}
+
+#deviceready{
+    width: 1920px;
+    height: 1080px;
+    overflow: hidden;
+    position: relative;
+    background: url("http://sky.fs.skysrt.com/statics/webvip/webapp/coocaaAct/voice123.jpg");
+}
+#divImg{
+    width: 778px;
+    height: 451px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background: white;
+    font-size: 36px;
+    background: url("http://sky.fs.skysrt.com/statics/webvip/webapp/coocaaAct/voicewindow1.png");
+    display: none;
+    z-index: 3;
+}
+#bg {
+    display: none;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index:1;
+    -moz-opacity: 0.7;
+    opacity:0.70;
+    filter: alpha(opacity=70);
+}
+#page3{
+    display: none;
+}
+#page2{
+    display: none;
+}
+.btnBorder{
+    background: url("http://sky.fs.skysrt.com/statics/webvip/webapp/coocaaAct/voicebtnborder.png");
+    width: 244px;
+    height: 93px;
+    position: fixed;
+    top: 655px;
+    left: 837px;
+    margin: auto;
+    text-align: center;
+    line-height: 63px;
+}
+#startDownLoad,#reDownLoad{
+    background: url("http://sky.fs.skysrt.com/statics/webvip/webapp/coocaaAct/voicebtn.png");
+    width: 218px;
+    height: 63px;
+    position: fixed;
+    top: 670px;
+    left: 850px;
+    margin: auto;
+    text-align: center;
+    line-height: 63px;
+    font-size: 25px;
+    color: rgb(100,77,0);
+}
+.world1,.world3,.world2{
+    text-align: center;
+    color: white;
+    margin-top: 150px;
+}
+#under{
+    width: 395px;
+    height: 30px;
+    border: 3px solid rgb(157,197,168);
+    position: fixed;
+    top:614px;
+    left: 760px;
+    padding: 5px;
+}
+#up{
+    width: 0px;
+    height: 30px;
+    background: white;
+}
+

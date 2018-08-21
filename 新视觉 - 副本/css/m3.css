@@ -1,0 +1,121 @@
+@charset "utf-8";
+body {
+    width: 1920px;
+    height: 1080px;
+    overflow: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    /*outline: none;*/
+    z-index: 0;
+}
+
+#deviceready{
+    background: url("http://sky.fs.skysrt.com/statics/webvip/webapp/ccmall/d20180824.png");
+}
+
+#bg {
+    display: block;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index:-1;
+    -moz-opacity: 0.7;
+    opacity:0.70;
+    filter: alpha(opacity=70);
+}
+
+#bgImg{
+    width: 1920px;
+    height: 1080px;
+}
+
+
+#bgImg{
+    z-index: 123;
+    overflow: hidden;
+    -webkit-box-shadow:0 0 50px rgba(0, 0, 0, .5);  
+    -moz-box-shadow:0 0 50px rgba(0, 0, 0, .5);  
+    box-shadow:0 0 80px rgba(0, 0, 0, .6); 
+}
+
+
+
+
+#info1{
+    position: fixed;
+    top: 70.9%;
+    left: 30.3%;
+    font-size: 33px;
+    color: rgb(51,51,51);
+}
+#info2{
+    position: fixed;
+    top: 70.9%;
+    left: 61.19%;
+    font-size: 33px;
+    color: #333333;
+}
+
+
+.walk{
+    background: url("http://sky.fs.skysrt.com/statics/webvip/webapp/ccmall/unfocus.png");
+    position: absolute;
+    top: 925px;
+    left: 994px;
+    height: 63px;
+    line-height: 63px;
+    width: 280px;
+    font-size: 33px;
+    color: white;
+    text-align: center;
+    /*display: none;*/
+}
+
+
+.goToDown{
+    background: url("http://sky.fs.skysrt.com/statics/webvip/webapp/ccmall/unfocus.png");
+    position: absolute;
+    top: 925px;
+    left: 649px;
+    height: 63px;
+    line-height: 63px;
+    width: 280px;
+    font-size: 33px;
+    color: white;
+    text-align: center;
+    /*display: none;*/
+}
+
+#progress{
+    width: 1920px;
+    color: white;
+    position: absolute;
+    top: 925px;
+    font-size: 20px;
+    margin-left: 500px;
+    display: none;
+}
+#under{
+    margin-top: 20px;
+    width: 1000px;
+    height: 10px;
+    background: #a7a7a7;
+    text-align: center;
+}
+#up{
+    margin-top: -10px;
+    width: 0px;
+    height: 10px;
+    background: #fff;
+    text-align: center;
+}
+.btnFocus{
+    opacity: 1;
+    background: url("http://sky.fs.skysrt.com/statics/webvip/webapp/ccmall/focus.png");
+}
